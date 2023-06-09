@@ -1,13 +1,14 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Command Line
 
-Try running some of the following tasks:
+- install :
+  - `npm i`
+- create `.env` file in project root path
+  - mirror `.env.example`
+- compile :
+  - `npm run compile`
+- deploy on blockchain network
+  - ✅ Product: `npm run d:o`
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+All scripts is in `package.json` file.
